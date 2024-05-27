@@ -1,0 +1,54 @@
+# Création de la liste pour stocker les articles d'achat
+shopping_list = []
+
+
+# Menu d'options pour l'utilisateur
+def menu():
+    print("Menu:")
+    print("1. Ajouter un article")
+    print("2. Supprimer un article")
+    print("3. Afficher la liste")
+    print("4. Quitter")
+
+
+# Ajouter un article à la liste
+def ajouter_article():
+    article = input("Entrez l'article à ajouter : ")
+    shopping_list.append(article)
+    print(article, "a été ajouté à la liste.")
+
+
+# Supprimer un article de la liste
+def supprimer_article():
+    article = input("Entrez l'article à supprimer : ")
+    if article in shopping_list:
+        shopping_list.remove(article)
+        print(article, "a été supprimé de la liste.")
+    else:
+        print(article, "n'est pas dans la liste.")
+
+
+# Afficher la liste des articles
+def afficher_liste():
+    print("Liste des articles :")
+    for item in shopping_list:
+        print("-", item)
+
+
+# Boucle principale
+while True:
+    menu()
+    choix = input("Faites votre choix : ")
+
+
+    if choix == "1":
+        ajouter_article()
+    elif choix == "2":
+        supprimer_article()
+    elif choix == "3":
+        afficher_liste()
+    elif choix == "4":
+        print("Au revoir !")
+        break
+    else:
+        print("Choix invalide. Veuillez choisir une option valide.")
