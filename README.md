@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Lekoulediamoke
 - 👀 I’m interested in la Data
-- 🌱 I’m currently learning la Data science
+- 🌱 I’m currently learning la Data science chez GOMYCODE
 - 💞️ I’m looking to collaborate on les projets qui porte sur le monde d'analyse de données
 - 📫 How to reach me www.linkedin.com/in/mardochée-modestelin-lekouledia-moke-902b1324
 - 😄 Pronouns: 
